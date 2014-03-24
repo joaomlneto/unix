@@ -1,7 +1,13 @@
+" show line numbers
 set nu
+
+" enable syntax highlighting
 syntax on
+
+" set tab size to 3 spaces
 set ts=3
-"set ai
+
+" enable mouse use in all modes
 set mouse=a
 
 " Tell vim to remember certain things when we exit
@@ -23,3 +29,4 @@ augroup resCur
 	autocmd!
 	autocmd BufWinEnter * call ResCur()
 augroup END
+
