@@ -4,8 +4,8 @@ set nu
 " enable syntax highlighting
 syntax on
 
-" set tab size to 3 spaces
-set ts=3
+" set tab size to 2 spaces
+set ts=2
 
 " enable mouse use in all modes
 set mouse=a
